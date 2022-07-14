@@ -11,7 +11,7 @@ const port = 3000
 //Va a tomar todas las peticiones que vengan en formato jSon,
 //la va a trnasformar en un objeto javascript y las va a asignar a la propiedad de body
 app.use(express.json())
-mongoose.connect('mongodb+srv://Ezequiel:magui123@cluster1.djqe0.mongodb.net/miapp?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://Ezequiel:<Contraseña>@cluster1.djqe0.mongodb.net/miapp?retryWrites=true&w=majority')
 
 
 app.get('/users', user.list) 	
