@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://Ezequiel:magui123@cluster1.djqe0.mongodb.net/miapp?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://Ezequiel:<Contraseña>@cluster1.djqe0.mongodb.net/miapp?retryWrites=true&w=majority')
 
 //Acciones principales que podemos realizar con los documentos de la libreria de mongoose
 
