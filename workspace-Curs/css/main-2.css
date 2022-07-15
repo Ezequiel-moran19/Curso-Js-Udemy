@@ -1,0 +1,44 @@
+
+body {
+	background-color: #eee;
+
+}
+
+.caja {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 2px;
+	border-top: solid 0px;
+}
+
+.container {
+	padding: 10px;
+	line-height: 1.4;
+}
+
+.header {
+	padding: 10px;
+	border-bottom: solid 1px #eee;
+
+}
+
+.footer {
+	padding: 10px;
+	border-top: solid 1px #eee;
+}
+
+.primer {
+	background-color: #3498DB;
+	padding: 5px;
+	border: 0px;
+	color: #fff;
+}
+
+.segundo {
+    background-color: #aaa;
+	padding: 5px;
+	border: 0px;
+	color: #fff;
+}
