@@ -1,0 +1,19 @@
+{
+  "name": "api-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "animal.controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "3.3.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.3"
+  }
+}
